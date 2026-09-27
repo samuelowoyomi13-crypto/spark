@@ -1,0 +1,31 @@
+/* Base Resets */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f46607;
+  font-family: sans-serif;
+  
+.navbar{
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(236, 32, 5);
+  padding: 10px 20px ;
+}
+img{
+    border-radius: 70%;
+    border: 5px solid rgba(242, 231, 34, 0.905);
+    border-style:double solid blue;
+    height: 100px;
+    width: 100px;
+}
+.nav-links a{
+color: #40ee19
+text decoration: none;
+padding: 10px 20px ;
+}

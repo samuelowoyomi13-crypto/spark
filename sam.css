@@ -1,0 +1,47 @@
+
+  margin: 30px;
+}
+#contact{/* Base Resets */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    background-color: rgb(13, 20, 215);
+  font-family: sans-serif;
+  background-color: #120eeb;
+  color: #e2540d;
+}
+
+/* Container */
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+
+#BUY{
+  border: black 3PX solid;
+  padding:20px ;
+}
+#about{
+  border: rgb(92, 211, 23) 3PX solid;
+  border: rgb(21, 49, 230) 3PX solid;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(236, 32, 5);
+  padding: 10px 20px ;
+}
+
+.nav-links a{
+color: #40ee19
+text decoration: none;
+padding: 10px 20px ;
+}
